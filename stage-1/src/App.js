@@ -61,7 +61,7 @@ class App extends Component {
               removeFromCart={this.removeFromCart}
             />
           ) : (
-            <StoreFront addToCart={this.addToCart} products={this.products} />
+            <StoreFront addToCart={this.addToCart} products={products} />
           )}
         </div>
       </div>
