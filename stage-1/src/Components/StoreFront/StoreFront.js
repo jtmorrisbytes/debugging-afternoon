@@ -3,6 +3,7 @@ import "./StoreFront.css";
 
 class StoreFront extends Component {
   render() {
+    console.log("StoreFront this.props.addToCart", this.props.addToCart);
     let productDisplay = this.props.products.map((element, index) => {
       return (
         <div className="product-container" key={index}>
