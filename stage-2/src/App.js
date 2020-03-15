@@ -55,7 +55,10 @@ class App extends Component {
         <NavBar navigate={this.navigate} />
         <div className="main-container">
           {showCart ? (
-            <ShoppingCart cart={cart} removeFromCart={this.removeFromCart} />
+            <ShoppingCart
+              shoppingCart={cart}
+              removeFromCart={this.removeFromCart}
+            />
           ) : (
             <StoreFront products={products} addToCart={this.addToCart} />
           )}
