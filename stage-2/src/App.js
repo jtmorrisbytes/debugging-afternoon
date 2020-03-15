@@ -27,7 +27,7 @@ class App extends Component {
   }
   addToCart(item) {
     this.setState({
-      cart: item
+      cart: [...cart, item]
     });
   }
   removeFromCart(index) {
