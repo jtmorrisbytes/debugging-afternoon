@@ -58,7 +58,7 @@ class App extends Component {
           {showCart ? (
             <ShoppingCart cart={this.state.cart} />
           ) : (
-            <StoreFront products={this.state.ßproducts} />
+            <StoreFront products={this.state.products} />
           )}
         </div>
       </div>
