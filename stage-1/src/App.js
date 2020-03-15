@@ -59,8 +59,8 @@ class App extends Component {
             <ShoppingCart cart={this.state.cart} />
           ) : (
             <StoreFront
-              addToCart={this.props.addToCart}
-              removeFromCart={this.props.removeFromCart}
+              addToCart={this.addToCart}
+              removeFromCart={this.removeFromCart}
               products={this.state.products}
             />
           )}
